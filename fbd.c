@@ -1,10 +1,3 @@
-/********************************************************************************
-* Project Title		: Fork Bomb Detector
-* Authors		: Vishnu V P (M140163CS), Denny Thomas (M140400CS),
-*			  Rakesh R Nair (M140143CS), Malleli Rajesh (M140278CS)
-* Date			: 30-March-2015
-********************************************************************************/ 
-
 #include <linux/kernel.h>
 #include <linux/module.h>
 #include <linux/init.h>

@@ -1,0 +1,24 @@
+Program 	: Fork Bomb Detector
+Authors		: Vishnu V P (vishnuvp@ymail.com), Denny Thomas (dennythomas55@gmail.com), Rakesh R Nair (rakeshrnair.india@gmail.com), Malleli Rajesh (rajeshmalleli@gmail.com)
+
+How To Install?
+---------------
+
+A : Normal installation
+	# sudo insmod fbd.ko
+	This will insert the module with the default values for maximum no of processes and young processes.
+	Default values are 
+		Maximum No Of processes allowed is 180
+		Time to determine whether the process is young is 1 milli seconds
+		No of young process allowed id 50
+    	
+B : Changing the parameters
+	sudo insmod fbd.ko threshold=180 young_age=100000 young_processes_allowed=50
+	This method can be used to change the default parameters of the FBD.
+	The parameter threshold is used to set the maximum number of process, young_age will set the time for checking the age of process, young_processes_allowed will set the maximum number of younger processes allowed.
+
+
+How To Remove?
+--------------
+
+	# sudo rmmod fbd.ko

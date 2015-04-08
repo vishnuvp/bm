@@ -19,3 +19,7 @@ How To Remove?
 --------------
 
 	# sudo rmmod fbd.ko
+Credits
+-------
+Built as part of course work
+Thanks to rakeshnair.india@gmail.com for adding parameter passing code, testing and bug fixes. 
